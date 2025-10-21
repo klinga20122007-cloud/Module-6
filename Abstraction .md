@@ -29,7 +29,18 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
-
+```
+class Rectangle:
+    def __init__(self, length, breadth):
+        self.__length = length      
+        self.__breadth = breadth    
+        print("Length:", self.__length)
+        print("Breadth:", self.__breadth)
+r1 = Rectangle(10, 5)
+```
 ## Output
+<img width="1047" height="271" alt="image" src="https://github.com/user-attachments/assets/f491213b-e478-4c1a-8aa9-96d1f648984a" />
+
 
 ## Result
+Thus the program is verified successfully.
